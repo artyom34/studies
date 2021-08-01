@@ -9,9 +9,9 @@ ul li:last-child span{
 	background-color:black;
 	color:white;
 }
-ul li:nth-of-type(even){
+ul li::nth-of-type(even){
 	margin-left: 16px;
 }
-.paragraphs p:nth-of-type(odd){
+.paragraphs p::nth-of-type(odd){
 	background-color: gray;
 }
