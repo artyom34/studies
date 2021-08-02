@@ -1,18 +1,22 @@
+
 div{
 	border: 2px solid black;
-	margin: 50px;
 	padding: 50px;
 }
-.box4{
-	background-color: pink;
-}
-.box3{
-	background-color: green;
+.box1{
+	margin: 50px 50px;
+	background-color: blue;
 }
 .box2{
 	background-color: yellow;
 }
-.box1{
-	background-color: blue;
+.box3{
+	background-color: green;
 }
+.box4{
+	background-color: pink;
+}
+
+
+
 
