@@ -1,0 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+.blok{
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+.blok_red{
+	background-color: red;
+}
+.blok_green{
+	background-color: green;
+}
+.blok_blue{
+	background-color: blue;
+}
+.blok_yellow{
+	background-color: yellow;
+}
+.blok_black{
+	background-color: black;
+}
