@@ -10,7 +10,7 @@
 .navigation{
 	position: fixed;
 	height: 40px;
-	line-height: 0.5;
+	line-height: 0.2;
 }
 .nav-item{
 	float: left;
