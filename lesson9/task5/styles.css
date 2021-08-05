@@ -8,11 +8,12 @@
 	position: fixed;
 }
 .navigation{
+	position: fixed;
 	height: 40px;
+	line-height: 0.5;
 }
 .nav-item{
 	float: left;
-	line-height: 0.5;
 	margin-left: 16px;
 	color: white;
 	list-style-type: none;
@@ -34,15 +35,14 @@
 	width: 40px;
 	height: 60px;
 	background-color: brown;
+	margin-top: -60px;
 }
 .ear_left{
 	float: left;
-	margin-top: -60px;
 	margin-left: -40px;
 }
 .ear_right{
 	float: right;
-	margin-top: -60px;
 	margin-right: -40px;
 }
 .eye{
