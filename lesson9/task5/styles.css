@@ -7,6 +7,7 @@
 	height: 40px;
 	width: 100%;
 	position: fixed;
+	z-index: 2;
 }
 .nav-list{
 	height: 40px;
@@ -22,15 +23,17 @@
 .content{
 	background-color: beige;
 	height: 5000px;
+	
 }
 .head{
 	width: 200px;
 	height: 200px;
 	background-color: aquamarine;
-	position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	background-position: 50% 50%;
+	position: absolute;
+	top: calc(50% - 200px / 2);
+	left: calc(50% - 200px / 2);
+	z-index: 1;
 }
 .ear{
 	width: 40px;
