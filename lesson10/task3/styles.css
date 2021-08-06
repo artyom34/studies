@@ -38,6 +38,9 @@
 	flex-direction: column;
 	align-items: center;
 }
+.heading{
+	margin: 16px 0;
+}
 .news-item{
 	flex-direction: column;
 	line-height: 40px;
