@@ -4,6 +4,7 @@
 .page{
 	display: flex;
 	flex-direction: column;
+	min-height: 100vh;
 }
 /* Site header */
 .header{
@@ -27,7 +28,7 @@
 /* content site */
 .content{
 	display: flex;
-	height: 100vh;
+	flex-grow: 1;
 }
 .news{
 	display: flex;
