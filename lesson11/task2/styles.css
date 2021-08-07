@@ -18,7 +18,9 @@
 }
 .both-scrolls{
 	overflow: scroll;
+	cursor: all-scroll;
 }
 .vertical-scroll{
 	overflow-y: scroll;
+	cursor: all-scroll;
 }
