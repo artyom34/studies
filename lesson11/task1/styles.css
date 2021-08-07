@@ -1,9 +1,13 @@
+.conteiner{
+	display: flex;
+	flex-direction: column;
+}
 .block-1{
-	display: none;
+	 display: none; 
 }
 .block-2{
 	visibility: hidden;
 }
 .block-3{
-	visibility: visible;
+ 	display: block;
 }
