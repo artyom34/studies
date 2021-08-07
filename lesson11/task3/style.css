@@ -3,6 +3,7 @@
 }
 .dropdown{
 	margin: 16px; 
+	width: 95.53px;
 }
 .menu-button{
 	display: inline-block;
@@ -27,7 +28,7 @@
 	width: 120px;
 	z-index: 1;
 }
-.menu-button:hover .menu-list{
+.dropdown:hover .menu-list{
 	display: block;
 }
 .menu-item{
