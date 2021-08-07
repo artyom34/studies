@@ -1,0 +1,9 @@
+.block-1{
+	display: none;
+}
+.block-2{
+	visibility: hidden;
+}
+.block-3{
+	visibility: visible;
+}
