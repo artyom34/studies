@@ -27,7 +27,7 @@
 	width: 120px;
 	z-index: 1;
 }
-.dropdown:hover .menu-list{
+.menu-button:hover .menu-list{
 	display: block;
 }
 .menu-item{
