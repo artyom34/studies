@@ -1,6 +1,6 @@
 html{
 	margin: 32px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Roboto, sans-serif;
 	font-size: 18px;
 }
 .header{
@@ -8,10 +8,11 @@ html{
 	text-align: center;
 	text-transform: uppercase;
 }
-.some-text{
+p{
 	line-height: 28px;
 }
-.some-letter{
+.abbreviation{
+	font-weight: 900;
 	letter-spacing: 3px;
 	font-size: 24px;
 	opacity: 80%;
@@ -21,5 +22,5 @@ a[target="_blank"]{
 	text-decoration: none;
 }
 .transletion{
-	color:grey;
+	color: grey;
 }
