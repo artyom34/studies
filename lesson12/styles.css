@@ -1,0 +1,25 @@
+html{
+	margin: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+.header{
+	word-spacing: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.some-text{
+	line-height: 28px;
+}
+.some-letter{
+	letter-spacing: 3px;
+	font-size: 24px;
+	opacity: 80%;
+	text-decoration: underline;
+}
+a[target="_blank"]{
+	text-decoration: none;
+}
+.transletion{
+	color:grey;
+}
