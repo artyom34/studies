@@ -1,8 +1,9 @@
-*{
+ *{
 	box-sizing: border-box;
 }
 .text{
 	display: inline-block;
+	font-weight: bold;
 	margin: 16px;
 	border-bottom: 1px dotted black;
 }
