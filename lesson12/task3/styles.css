@@ -11,6 +11,6 @@
 	text-decoration: line-through;
 }
 .third{
-	border-bottom: 2px solid green;
-	display: inline-block;
+	text-decoration-line: underline;
+	text-decoration-color: green;
 }
