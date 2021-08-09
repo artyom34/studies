@@ -4,9 +4,9 @@
 .list li{
 	font-size: 1.5em;;
 }
-.third{
+/* .third{
 	text-decoration: green underline;
-}
+} */
 .second{
 	text-decoration: line-through;
 }
