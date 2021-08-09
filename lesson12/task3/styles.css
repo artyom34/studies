@@ -4,13 +4,13 @@
 .list li{
 	font-size: 1.5em;;
 }
-.list li:last-child{
+.third{
 	text-decoration-line: underline;
 	text-decoration-color: green;
 }
-.list li:nth-child(2){
+.second{
 	text-decoration: line-through;
 }
-.list li:first-child{
+.first{
 	text-decoration: overline;
 }
