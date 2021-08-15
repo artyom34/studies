@@ -2,12 +2,13 @@
 	box-sizing: border-box;
 }
 .main-form{
+	display: block;
 	margin: 32px;
 }
 .input-form{
 	display: block;
 	margin: 8px;
 }
-.languages{
-	margin: 8px;
+label{
+	margin: 3px;
 }

@@ -5,32 +5,32 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-      crossorigin="anonymous"
-    />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+	integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+	crossorigin="anonymous" 
+	referrerpolicy="no-referrer" 
+	/>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<form class="main-form">
 		
-		<input type="text"
+		<input type="text" 
 		class="input-form"
 		name="primaryLanguage"
 		value="HTML"
 		disabled>
-
+		
 		<input type="checkbox"
-		class="input-form" 
+		class="input-form"
 		name="agree"
 		unchecked>
 
 		<input type="checkbox"
-		class="input-form" 
+		class="input-form"
 		name="like"
-		readonly checked>
+		checked
+		readonly>
 
 		<input type="color"
 		class="input-form"
@@ -64,39 +64,23 @@
 
 		<input type="number"
 		class="input-form"
-		name="fovouriteNumber"
+		name="favouriteNumber"
 		value="17">
 
-		<textarea
-		class="input-form"
+		<textarea class="input-form"
 		name="story"
-		placeholder="A long time ago..."
+		cols="30" 
 		rows="5"
-		cols="30"></textarea>
+		placeholder="A long time ago..."></textarea>
 
 		<input type="password"
 		class="input-form"
-		name="password"
 		value="secret">
-		 
-		<div class="languages">
 
-			<input type="radio" 
-			id="for-html"
-			name="development"> 
-			<label for="for-html">HTML</label>
-
-			<input type="radio"
-			id="for-css" 
-			name="development"
-			checked>
-			<label for="for-css"
-			>CSS</label>
-
-			<input type="radio" 
-			id="for-javaScript" 
-			name="development">
-			<label for="for-javaScript">JavaScript</label>
+		<div class="languages input-form">
+			<input type="radio" value="html"><label>HTML</label>	
+			<input type="radio" value="css" checked><label>CSS</label>	
+			<input type="radio" value="javascript"><label>JavaScript</label>	
 		</div>
 
 		<input type="range"
@@ -104,16 +88,15 @@
 		name="learningProgress"
 		value="30">
 
-	    <select name="framework"
+		<select name="framework"
 		class="input-form">
-			<option value="react">React</option>
+			<option value="react"> React</option>
 			<option value="jquery" selected>jQuery</option>
-			<option value="bootstrap">bootstrap</option>
+			<option value="bootstrap">Bootstrap</option>
 		</select>
 
 		<input type="search"
 		class="input-form"
-		name="search"
 		placeholder="Type first letters...">
 
 		<input type="time"
