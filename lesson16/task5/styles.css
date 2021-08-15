@@ -4,10 +4,7 @@
 .main-form{
 	margin: 32px;
 }
-.languages{
-	margin: 8px;
-}
-input.input-form{
+.input-form{
 	display: block;
 	margin: 8px;
 }
