@@ -1,15 +1,9 @@
 *{
 	box-sizing: border-box;
 }
-.main-form{
-	display: block;
+form{
 	margin: 32px;
-	padding: 8px;
 }
-.input-form{
-	display: flex;
+div{
 	margin: 8px;
-}
-label{
-	margin-left: 5px;
 }
