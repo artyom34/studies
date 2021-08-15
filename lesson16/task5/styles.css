@@ -4,15 +4,12 @@
 .main-form{
 	display: block;
 	margin: 32px;
+	padding: 8px;
 }
 .input-form{
-	display: block;
+	display: flex;
 	margin: 8px;
 }
 label{
 	margin-left: 5px;
-}
-input[type="checkbox"]{
-	margin-top: 1px;
-	margin-bottom: 15px;
 }
