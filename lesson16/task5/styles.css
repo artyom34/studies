@@ -4,11 +4,10 @@
 .main-form{
 	margin: 32px;
 }
-.input-form{
-	display: block;
+.languages{
 	margin: 8px;
 }
-.radio{
-	margin-top: 14px;
-	margin-bottom: 14px;
+input.input-form{
+	display: block;
+	margin: 8px;
 }
