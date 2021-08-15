@@ -5,6 +5,6 @@
 	margin: 32px;
 }
 .input-form{
-	display: block;
+	display: flex;
 	margin: 8px;
 }
