@@ -1,9 +1,9 @@
 *{
 	box-sizing: border-box;
 }
-form{
+.main-form{
 	margin: 32px;
 }
-div{
+.element-form{
 	margin: 8px;
 }
