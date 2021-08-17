@@ -6,6 +6,7 @@
 	margin: 16px;
 	border-collapse: collapse;
 	text-align: center;
+	font-weight: normal;
 }
 td, th{
 	width: 50px;
