@@ -6,6 +6,7 @@
 	margin: 16px;
 	border-collapse: collapse;
 	text-align: center;
+	font-weight: 700;
 }
 td, th{
 	width: 50px;
@@ -14,19 +15,27 @@ td, th{
 td{
 	border: 1px solid black;
 }
-tr:nth-child(even) td:nth-child(even){
+tr:nth-child(odd) td:nth-child(even){
 	background-color: black;
 }
- tr:nth-child(odd) td:nth-child(odd){
+ tr:nth-child(even) td:nth-child(odd){
 	background-color: black;
 }
 tr td:nth-child(1){
-	border: none;
+	border: none; 
 	background-color: white !important;
 }
 tr td:nth-child(10){
 	border: none;
 	background-color: white !important;
+}
+.main-table tr:nth-child(1) td{
+	border: none; 
+	background-color: white;
+}
+.main-table tr:nth-child(10) td{
+	border: none; 
+	background-color: white;
 }
 
 
