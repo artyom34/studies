@@ -12,6 +12,9 @@
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
+	transition-property: width, opacity;
+	transition-duration: 2s, 0,5s;
+	
 }
 .linear:hover{
 	transition: linear 2s;
@@ -34,7 +37,7 @@
 	opacity: 1;
 }
 .ease-in-out:hover{
-	transition: ease-in-out 2s;
+	transition: ease-in-out 2s , ;
 	width: 100%;
 	opacity: 1;
 }
