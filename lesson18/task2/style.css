@@ -1,0 +1,29 @@
+.btn{
+	display: inline-block;
+	margin: 64px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	background-color: coral;
+	color: white;
+	line-height: 50px;
+	border-radius: 4px;
+}
+.some-bird{
+	width: 32px;
+	height: 32px;
+	fill: white;
+	vertical-align: middle;
+}
+.btn:hover{
+	color: darkcyan;
+}
+.btn:hover .some-bird{
+	fill: green;
+}
+
