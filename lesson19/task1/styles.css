@@ -12,32 +12,26 @@
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
-	transition-property: width, opacity;
-	transition-duration: 2s, 0,5s;
-	
 }
-.linear:hover{
-	transition: linear 2s;
+.rect:hover{
 	width: 100%;
 	opacity: 1;
+	transition: width 2s, opacity .5s;
 }
-.ease:hover{
-	transition: ease 2s;
-	width: 100%;
-	opacity: 1;
+
+.linear{
+	transition-timing-function: linear;
 }
-.ease-in:hover{
-	transition: ease-in 2s;
-	width: 100%;
-	opacity: 1;
+.ease{
+	transition-timing-function: ease;
 }
-.ease-out:hover{
-	transition: ease-out 2s;
-	width: 100%;
-	opacity: 1;
+.ease-in{
+	transition-timing-function: ease-in;
+
 }
-.ease-in-out:hover{
-	transition: ease-in-out 2s , ;
-	width: 100%;
-	opacity: 1;
+.ease-out{
+	transition-timing-function: ease-out;
+}
+.ease-in-out{
+	transition-timing-function: ease-in-out;
 }
