@@ -1,0 +1,46 @@
+@keyframes moving {
+	from {
+		left: 0;
+		opacity: 1;
+	}
+	to {
+	  	left: 70px;
+	}
+  }
+
+  @keyframes blinking {
+	0% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 0;
+	}
+}
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+.spinner-text{
+	font: 16px monospace;
+	text-transform: uppercase;
+	animation-name: blinking;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.rect{
+	position: absolute;
+	background-color: black;
+	width: 10px;
+	height: 4px;
+	border-radius: 2px;
+	animation: moving 2s linear infinite, blinking 2s infinite;
+}
