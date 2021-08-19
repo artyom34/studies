@@ -1,0 +1,31 @@
+@keyframes moving{
+	0%{
+		top:100px;
+	}
+	50%{
+		top: calc(50vh - 50px);
+	}
+}
+
+*{
+	box-sizing: border-box;
+}
+body{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.block{
+	position: absolute;
+	font: 700 14px Arial, Helvetica, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	background-color: coral;
+	text-align: center;
+	width: 250px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 10px;
+	animation: moving 2s ease forwards;
+}
+
