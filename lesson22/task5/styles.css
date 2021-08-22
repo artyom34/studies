@@ -89,6 +89,7 @@ img{
 }
 @media screen and (min-width: 600px) {
 	.main{
+		height: 100%;
 		display: block;
 	}
 	.navigation{
@@ -98,6 +99,10 @@ img{
 	.section{
 		float: left;
 		width: 80%;;
+	}
+	.news{
+		clear: both;
+		width: 100%;
 	}
 }
 @media screen and (min-width: 1200px) {
@@ -114,6 +119,7 @@ img{
 		width: 60%;;
 	}
 	.news{
+		display: block;
 		float: left;
 		width: 20%;
 	}
