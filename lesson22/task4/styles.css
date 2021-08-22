@@ -13,13 +13,12 @@ html{
 	padding-right: 1em;
 	background-color: #eeeeee;
 }
-.fa-bars{
+.fas{
 	font-size: 2em;
 }
 .btn{
 	padding: 0;
 	border: none;
-	background-color: #fff;
 	cursor: pointer;
 }
 .nav-list{
