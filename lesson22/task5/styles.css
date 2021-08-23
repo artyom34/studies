@@ -90,7 +90,6 @@ img{
 }
 @media screen and (min-width: 600px){
 	.main{
-		display: flex;
 		flex-wrap: wrap;
 	}
 	.navigation{
