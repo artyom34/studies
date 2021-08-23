@@ -28,6 +28,7 @@ body{
 }
 .main{
 	display: flex;
+	flex-grow: 1;
 }
 .news{
 	width: 20%;
@@ -76,30 +77,27 @@ body{
 	text-overflow: ellipsis;
 }
 img{
-	display: block;
-	max-width: 100%;
+	width: 100%;
 	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .2);
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599px){
 	.main{
 		flex-direction: column;
 	}
-	.section, .navigation, .news{
+	.navigation, .section, .news{
 		width: 100%;
 	}
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
 	.main{
-		height: 100%;
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
 	}
 	.navigation{
-		float: left;
 		width: 20%;
 	}
 	.section{
-		float: left;
-		width: 80%;;
+		width: 80%;
 	}
 	.news{
 		width: 100%;
@@ -107,23 +105,16 @@ img{
 }
 @media screen and (min-width: 1200px) {
 	.main{
-		display: block;
-		height: 100%;
+		flex-direction: row;
 	}
 	.navigation{
-		float: left;
 		width: 20%;
 	}
 	.section{
-		float: left;
-		width: 60%;;
+		width: 60%;
 	}
 	.news{
-		display: block;
-		float: left;
 		width: 20%;
 	}
-	.footer{
-		clear: both;
-	}
+
 }
