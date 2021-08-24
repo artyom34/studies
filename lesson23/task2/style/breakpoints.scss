@@ -3,17 +3,17 @@ $mdl: 900px;
 $lrg: 1200px;
 
 @mixin for-min-screen {
-	@media screen and (min-width: $min) {
+	@media screen and (min-width: $min){
 		@content;
 	}
 }
 @mixin for-middle-screen {
-	@media screen and (min-width: $mdl) {
+	@media screen and (min-width: $mdl){
 		@content;
 	}
 }
 @mixin for-large-screen {
-	@media screen and (min-width: $lrg) {
+	@media screen and (min-width: $lrg){
 		@content;
 	}
 }
