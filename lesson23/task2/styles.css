@@ -12,7 +12,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 8px;
   background-color: #ff7f50;
 }
 @media screen and (max-width: 599px) {
@@ -38,7 +38,7 @@ body {
 @media screen and (orientation: landscape) {
   .square {
     display: inline-block;
-    margin: 8px;
+    position: relative;
   }
 }
 
