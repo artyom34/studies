@@ -26,8 +26,8 @@ body{
 	@include for-large-screen{
 		background-color: #c47;
 	}	
-	// @include portrait{
-	// 	display: inline-block;
-	// }
+	@include landscape{
+		display: inline-block;
+	}
 }
 	
