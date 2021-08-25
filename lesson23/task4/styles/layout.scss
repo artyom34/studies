@@ -1,0 +1,53 @@
+@import 'variables.scss';
+
+.nav{
+	background-color: #ff7f50;
+}
+.product{
+	background-color: #006400;
+}
+.news{
+	background-color: #0ff;
+}
+
+.block{
+	display: flex;
+	height: 200px;
+
+
+	&__item{
+		padding: $unit * 2;
+		border-radius: $border-radius;
+		text-transform: lowercase;
+		background-color: #faebd7;
+		margin: auto;
+	}
+}
+.conteiner{
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+
+	@include for-min-screen{
+		flex-direction: column;
+	}
+	@include for-middle-screen{
+		.nav{
+			width: 50%;
+		}
+		.product{
+			width: 50%;
+		}
+		.news{
+			width: 100%;
+		}
+	}
+	@include for-large-screen{
+		flex-direction: row;
+		flex-wrap: nowrap;
+
+		.nav, .product, .news{
+			width: 100%;
+		}
+	}
+}
