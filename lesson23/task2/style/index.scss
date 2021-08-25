@@ -14,9 +14,6 @@ body{
 	@include landscape{
 		display: flex;
 	}
-	.square{
-		margin-bottom: 16px;
-	}
 }
 .square{
 	width: 100px;
