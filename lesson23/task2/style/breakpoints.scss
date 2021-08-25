@@ -27,3 +27,8 @@ $lrg: 1200px;
 		@content;
 	}
 }
+@mixin portrait {
+	@media  screen and (orientation: portrait){
+		@content;
+	}
+}

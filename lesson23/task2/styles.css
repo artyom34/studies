@@ -9,10 +9,14 @@ body {
   height: 100vh;
 }
 
+.container {
+  padding-bottom: 0;
+}
+
 .square {
   width: 100px;
   height: 100px;
-  margin: 8px;
+  margin-right: 8px;
   background-color: #ff7f50;
 }
 @media screen and (max-width: 599px) {
@@ -38,7 +42,12 @@ body {
 @media screen and (orientation: landscape) {
   .square {
     display: inline-block;
-    position: relative;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .square {
+    margin-bottom: 8px;
   }
 }
 
