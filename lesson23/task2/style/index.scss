@@ -14,9 +14,8 @@ body{
 	@include landscape{
 		display: flex;
 	}
-	@include portrait{
-		display: inline-block;
-		margin-bottom: 8px;
+	.square{
+		margin-bottom: 16px;
 	}
 }
 .square{

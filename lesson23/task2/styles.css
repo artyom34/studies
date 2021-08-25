@@ -14,11 +14,8 @@ body {
     display: flex;
   }
 }
-@media screen and (orientation: portrait) {
-  .container {
-    display: inline-block;
-    margin-bottom: 8px;
-  }
+.container .square {
+  margin-bottom: 16px;
 }
 
 .square {
