@@ -10,13 +10,19 @@ body{
 	align-items: center;
 	height: 100vh;
 }
-.container{
-	padding-bottom: 0;
+.container{	
+	@include landscape{
+		display: flex;
+	}
+	@include portrait{
+		display: inline-block;
+		margin-bottom: 8px;
+	}
 }
 .square{
 	width: 100px;
 	height: 100px;
-	margin-right: 8px;
+	margin: 8px;
 	background-color: #ff7f50;
 
 	@include for-mini-screen{
@@ -31,12 +37,5 @@ body{
 	@include for-large-screen{
 		background-color: #c47;
 	}	
-	@include landscape{
-		display: inline-block;
-		margin-bottom: 8px;
-	}
-	@include portrait{
-		margin-bottom: 8px;
-	}
 }
 	

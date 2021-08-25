@@ -9,14 +9,22 @@ body {
   height: 100vh;
 }
 
-.container {
-  padding-bottom: 0;
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+  }
+}
+@media screen and (orientation: portrait) {
+  .container {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
 }
 
 .square {
   width: 100px;
   height: 100px;
-  margin-right: 8px;
+  margin: 8px;
   background-color: #ff7f50;
 }
 @media screen and (max-width: 599px) {
@@ -37,17 +45,6 @@ body {
 @media (min-width: 1200px) {
   .square {
     background-color: #c47;
-  }
-}
-@media screen and (orientation: landscape) {
-  .square {
-    display: inline-block;
-    margin-bottom: 8px;
-  }
-}
-@media screen and (orientation: portrait) {
-  .square {
-    margin-bottom: 8px;
   }
 }
 
