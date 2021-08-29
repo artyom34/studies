@@ -1,82 +1,72 @@
-.header{
-	width: 1400px;
-	margin: auto;
-	margin-top: 0;
+.top_section{
 	background-color: #F3C6BD;
 	padding-top: 39px;
+}
 
-	&__button{
-		width: 160px;
-		height: 48px;
-		background-color: #3040C4;
-		border-radius: 2px;
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 13px;
-		color: #ffffff;
-		border-radius: 2px;
-		border: none;
-	}
-
-&__menu{
+.header{
 	display: flex;
 	width: 1140px;
-	margin: auto;
 	height: 62px;
-
+	margin: auto;
 
 	.logo{
 		display: flex;
-		width: 299px;
-		height: 60px;
-
+		
 		&__image{
-			width: 60px;
+			width: 60;
 			height: 60px;
 			margin-right: 15px;
 		}
 		&__text{
-			width: 222px;
-			height: 51px;
-			margin-top: 4px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
 		}
 		&__name{
-			font-size: 20px;
-			font-weight: 700;
-			line-height: 25px;
 			color: #2B292D;
+			font-size: 20px;
+			line-height: 25px;
+			font-weight: 700;
 		}
 		&__description{
-			font-size: 18px;
-			line-height: 25px;
 			color: #2B292D;
+			font-size: 20px;
+			line-height: 25px;
 			opacity: .6;
-		}
+		}	
 	}
+
 	.navigation{
-		list-style-type: none;
+		margin-left: auto;
 		margin-top: 7px;
 		margin-right: 75px;
-		margin-left: auto;
-		
-		&__link{
+
+		&__item{
+			color:#2B292D;
+			text-decoration: none;
+			line-height: 25px;
 			font-size: 18px;
-			color: #2B292D;
-			text-decoration: none;		
-			line-height: 25px;	
-			margin-left: 50px;
-			
+			margin-right: 50px;
+
 			&__selected{
 				font-weight: 700;
 			}
 		}
-		&__arrow{
-			background-image: url("images/arrow.png");
-			display: inline-block;
-			width: 8px;
-			height: 5px;
+		&__item:nth-child(3){
+			margin-right: 0;
+		}
+		.navigation__arrow{
 			margin-left: 11px;
 		}
 	}
+	&__button{
+		background-color: #3040C4;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+		width: 160px;
+		height: 48px;
+		border: none;
+		border-radius: 2px;
 	}
 }
