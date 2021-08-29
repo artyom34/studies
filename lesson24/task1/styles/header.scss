@@ -1,7 +1,8 @@
 .header{
 	width: 1400px;
-	background-color: #F3C6BD;
 	margin: auto;
+	margin-top: 0;
+	background-color: #F3C6BD;
 	padding-top: 39px;
 
 	&__button{
@@ -16,12 +17,13 @@
 		border-radius: 2px;
 		border: none;
 	}
-}
-.menu{
+
+&__menu{
 	display: flex;
 	width: 1140px;
 	margin: auto;
 	height: 62px;
+
 
 	.logo{
 		display: flex;
@@ -76,5 +78,5 @@
 			margin-left: 11px;
 		}
 	}
-
+	}
 }
