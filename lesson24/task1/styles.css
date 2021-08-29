@@ -1,80 +1,86 @@
-*{
-	box-sizing: border-box;
-}
-html{
-	font-size: 16px;
-	font-family: 'Work sans', sans-serif;
-}
-.page{
-	width: 1400px;
-	margin: auto;
-}
-.top__section{
-	padding-top: 39px;
-	background-color:#F3C6BD;
-}
-.header{
-	display: flex;
-	width: 1140px;
-	height: 62px;
-	margin: auto;
-}
-.header__button{
-	background-color: #3040C4;
-	color: #ffffff;
-	width: 160px;
-	height: 48px;
-	font-size: 18px;
-	font-weight: 700;
-	border-radius: 2px;
-	border:none;
+* {
+  box-sizing: border-box;
 }
 
-/* Navigation site */
-.navigation{
-	margin-left: auto;
-	margin-top: 7px;
-	margin-right: 75px;
-}
-.navigation__item{
-	color: #2B292D;
-	text-decoration: none;
-	line-height: 25px;
-	font-size: 18px;
-	margin-left: 50px;
-}
-.navigation__item_selected{
-	font-weight: 700;
-}
-.navigation__arrow{
-	display: inline-block;
-	background-image: url(images/arrow.png);
-	width: 8px;
-	height: 5px;
-	margin-left: 11px;
+html {
+  font-size: 16px;
+  font-family: "Work sans", sans-serif;
 }
 
-.logo{
-	display: flex;
+.header {
+  width: 1400px;
+  background-color: #F3C6BD;
+  margin: auto;
+  padding-top: 39px;
 }
-.logo__image{
-	width: 60px;
-	height: 60px;
-	margin-right: 15px;;
+.header__button {
+  width: 160px;
+  height: 48px;
+  background-color: #3040C4;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 13px;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
 }
-.logo__text{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+
+.menu {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  height: 62px;
 }
-.logo__name{
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 25px;
+.menu .logo {
+  display: flex;
+  width: 299px;
+  height: 60px;
 }
-.logo__description{
-	font-size: 18px;
-	line-height: 25px;
-	color: #2B292D;
-	opacity: 0.6;
+.menu .logo__image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
 }
+.menu .logo__text {
+  width: 222px;
+  height: 51px;
+  margin-top: 4px;
+}
+.menu .logo__name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #2B292D;
+}
+.menu .logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  color: #2B292D;
+  opacity: 0.6;
+}
+.menu .navigation {
+  list-style-type: none;
+  margin-top: 7px;
+  margin-right: 75px;
+  margin-left: auto;
+}
+.menu .navigation__link {
+  font-size: 18px;
+  color: #2B292D;
+  text-decoration: none;
+  line-height: 25px;
+  margin-left: 50px;
+}
+.menu .navigation__link__selected {
+  font-weight: 700;
+}
+.menu .navigation__arrow {
+  background-image: url("images/arrow.png");
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  margin-left: 11px;
+}
+
+/*# sourceMappingURL=styles.css.map */

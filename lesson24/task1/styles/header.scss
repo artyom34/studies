@@ -1,0 +1,80 @@
+.header{
+	width: 1400px;
+	background-color: #F3C6BD;
+	margin: auto;
+	padding-top: 39px;
+
+	&__button{
+		width: 160px;
+		height: 48px;
+		background-color: #3040C4;
+		border-radius: 2px;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 13px;
+		color: #ffffff;
+		border-radius: 2px;
+		border: none;
+	}
+}
+.menu{
+	display: flex;
+	width: 1140px;
+	margin: auto;
+	height: 62px;
+
+	.logo{
+		display: flex;
+		width: 299px;
+		height: 60px;
+
+		&__image{
+			width: 60px;
+			height: 60px;
+			margin-right: 15px;
+		}
+		&__text{
+			width: 222px;
+			height: 51px;
+			margin-top: 4px;
+		}
+		&__name{
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 25px;
+			color: #2B292D;
+		}
+		&__description{
+			font-size: 18px;
+			line-height: 25px;
+			color: #2B292D;
+			opacity: .6;
+		}
+	}
+	.navigation{
+		list-style-type: none;
+		margin-top: 7px;
+		margin-right: 75px;
+		margin-left: auto;
+		
+		&__link{
+			font-size: 18px;
+			color: #2B292D;
+			text-decoration: none;		
+			line-height: 25px;	
+			margin-left: 50px;
+			
+			&__selected{
+				font-weight: 700;
+			}
+		}
+		&__arrow{
+			background-image: url("images/arrow.png");
+			display: inline-block;
+			width: 8px;
+			height: 5px;
+			margin-left: 11px;
+		}
+	}
+
+}
