@@ -1,5 +1,12 @@
 @import 'globalItem.scss';
 
+.header-section{
+	background-color: #F3C6BD;
+	padding-top: 39px;
+	height: 710px;
+	position: relative;
+	z-index: 1;
+}
 .header{
 	display: flex;
 	width: 1140px;
@@ -34,8 +41,11 @@
 	}
 
 	.navigation{
+		display: flex;
 		margin-left: auto;
 		margin-top: 7px;
+		width: 273px;
+		height: 25px;
 		margin-right: 75px;
 
 		&__item{
@@ -52,7 +62,10 @@
 		&__item:nth-child(3){
 			margin-right: 0;
 		}
-		.navigation__arrow{
+		&__arrow{
+			margin: auto;
+			width: 8px;
+			height: 5px;
 			margin-left: 11px;
 		}
 	}
