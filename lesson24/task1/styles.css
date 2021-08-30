@@ -141,6 +141,7 @@
   font-size: 22px;
   font-weight: 700;
   color: #2B292D;
+  margin: 0;
 }
 .footer__navigation .services__links {
   width: 265px;
@@ -151,11 +152,13 @@
 }
 .footer__navigation .services__list {
   list-style-type: none;
+  margin-top: 18px;
 }
 .footer__navigation .services__list__item {
-  line-height: 30px;
+  line-height: 35px;
 }
 .footer__navigation .services__list__link {
+  font-size: 18px;
   text-decoration: none;
   color: #2B292D;
   opacity: 0.6;
