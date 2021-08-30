@@ -1,0 +1,125 @@
+.footer{
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+	
+	&__navigation{
+		display: flex;
+		width: 1140px;
+		margin: 0 auto;
+		height: 338px;
+
+		.about-company{
+			margin-top: 44px;
+		}
+
+		.logo{
+			display: flex;
+			
+			&__image{
+				width: 60;
+				height: 60px;
+				margin-right: 15px;
+			}
+			&__text{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			&__name{
+				color: #2B292D;
+				font-size: 20px;
+				line-height: 25px;
+				font-weight: 700;
+			}
+			&__description{
+				color: #2B292D;
+				font-size: 20px;
+				line-height: 25px;
+				opacity: .6;
+			}	
+		}
+
+		&__description{
+			width: 360px;
+			line-height: 26px;
+			font-size: 18px;
+			margin-top: 26px;
+			color: #2B292D;
+			opacity: .6;
+		}
+		.downloads{
+			margin-top: 25px;
+
+			&__item{
+				margin-right: 10px;
+			}
+		}
+
+		.services{
+			display: flex;
+			margin-top: 60px;
+			margin-left: auto;
+			
+			&__title{
+				font-size: 22px;
+				font-weight: 700;
+				color: #2B292D;
+			}
+
+			&__links{
+				width: 265px;
+				margin-right: 29px;
+			}
+			&__links:last-child{
+				margin-right: 0px;
+			}
+			&__list{
+				list-style-type: none;
+
+				&__item{
+					line-height: 30px;
+				}
+				&__link{
+					text-decoration: none;
+					color: #2B292D;
+					opacity: .6;
+				}
+			}
+		}
+	}
+
+	&__line{
+		width: 100%;
+		border-top: 1px solid #2B292D;
+		opacity: .1;
+		margin: 0;
+	}
+	
+	&__links{
+		display: flex;
+		justify-content: space-between;
+		width: 1140px;
+		height: 50px;
+		margin: 0 auto;
+	
+		.terms{
+			line-height: 50px;
+			
+			&__item{
+				text-decoration: none;
+				font-size: 14px;
+				color: #2B292D;
+				opacity: .6;
+				margin-right: 22px;
+			}
+		}
+		.social-link{
+			line-height: 50px;
+			
+			&__item{
+				margin-left: 20px;
+			}
+		}
+	}
+}

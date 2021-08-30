@@ -3,8 +3,12 @@
 }
 
 .page {
+  font-family: "Work sans", sans-serif;
+  display: flex;
+  flex-direction: column;
   width: 1400px;
   margin: auto;
+  min-height: 100vh;
 }
 
 .top_section {
@@ -73,6 +77,117 @@
   height: 48px;
   border: none;
   border-radius: 2px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+.footer__navigation {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+}
+.footer__navigation .about-company {
+  margin-top: 44px;
+}
+.footer__navigation .logo {
+  display: flex;
+}
+.footer__navigation .logo__image {
+  width: 60;
+  height: 60px;
+  margin-right: 15px;
+}
+.footer__navigation .logo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__navigation .logo__name {
+  color: #2B292D;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.footer__navigation .logo__description {
+  color: #2B292D;
+  font-size: 20px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+.footer__navigation__description {
+  width: 360px;
+  line-height: 26px;
+  font-size: 18px;
+  margin-top: 26px;
+  color: #2B292D;
+  opacity: 0.6;
+}
+.footer__navigation .downloads {
+  margin-top: 25px;
+}
+.footer__navigation .downloads__item {
+  margin-right: 10px;
+}
+.footer__navigation .services {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+}
+.footer__navigation .services__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2B292D;
+}
+.footer__navigation .services__links {
+  width: 265px;
+  margin-right: 29px;
+}
+.footer__navigation .services__links:last-child {
+  margin-right: 0px;
+}
+.footer__navigation .services__list {
+  list-style-type: none;
+}
+.footer__navigation .services__list__item {
+  line-height: 30px;
+}
+.footer__navigation .services__list__link {
+  text-decoration: none;
+  color: #2B292D;
+  opacity: 0.6;
+}
+.footer__line {
+  width: 100%;
+  border-top: 1px solid #2B292D;
+  opacity: 0.1;
+  margin: 0;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+}
+.footer__links .terms {
+  line-height: 50px;
+}
+.footer__links .terms__item {
+  text-decoration: none;
+  font-size: 14px;
+  color: #2B292D;
+  opacity: 0.6;
+  margin-right: 22px;
+}
+.footer__links .social-link {
+  line-height: 50px;
+}
+.footer__links .social-link__item {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
