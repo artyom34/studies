@@ -110,12 +110,12 @@ html {
 .headline {
   width: 1140px;
   margin: auto;
-  margin-top: 84px;
+  margin-top: 76px;
 }
 .headline__banner {
   position: absolute;
   right: 25px;
-  bottom: 70px;
+  top: 185px;
   width: 796px;
   height: 448px;
   z-index: -1;
