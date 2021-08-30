@@ -1,7 +1,4 @@
-.top_section{
-	background-color: #F3C6BD;
-	padding-top: 39px;
-}
+@import 'globalItem.scss';
 
 .header{
 	display: flex;
@@ -58,15 +55,5 @@
 		.navigation__arrow{
 			margin-left: 11px;
 		}
-	}
-	&__button{
-		background-color: #3040C4;
-		color: #ffffff;
-		font-size: 18px;
-		font-weight: 700;
-		width: 160px;
-		height: 48px;
-		border: none;
-		border-radius: 2px;
 	}
 }
