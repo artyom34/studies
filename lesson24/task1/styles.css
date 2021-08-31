@@ -286,4 +286,17 @@ html {
   margin-left: 29px;
 }
 
+.customers {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 81px;
+  align-items: center;
+}
+.customers__item {
+  filter: brightness(0);
+}
+
 /*# sourceMappingURL=styles.css.map */
