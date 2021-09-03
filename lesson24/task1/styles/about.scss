@@ -1,7 +1,9 @@
 .about{
+	display: flex;
 	width: 1400px;
 	height: 255px;
 	background-color: #F4F5F7;
+	margin: auto;
 
 	&__section{
 		display: flex;

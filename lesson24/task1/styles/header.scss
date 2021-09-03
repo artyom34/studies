@@ -2,24 +2,31 @@
 
 .header-section{
 	background-color: #F3C6BD;
-	padding-top: 39px;
 	height: 710px;
 	position: relative;
 	z-index: 1;
 }
+
 .header{
 	display: flex;
-	width: 1140px;
-	height: 62px;
-	margin: auto;
+	padding: 0;
+	height: 64px;
+	width: 100%;
+	background-color: #ffffff;
+	
+	.action-button{
+		display: none;
+	}
 
 	.logo{
 		display: flex;
+		width: 261px;
 		
 		&__image{
-			width: 60;
-			height: 60px;
-			margin-right: 15px;
+			margin: auto 0;
+			width: 48px;
+			height: 48px;
+			margin: 8px 13px 8px 15px;
 		}
 		&__text{
 			display: flex;
@@ -33,21 +40,86 @@
 			font-weight: 700;
 		}
 		&__description{
-			color: #2B292D;
-			font-size: 20px;
-			line-height: 25px;
-			opacity: .6;
+			display: none;
 		}	
+		&__menu-button{
+			display: flex;
+			width: 58px;
+			border-left: 1px solid rgba(0, 0, 0, .15);
+
+			&__image{
+				margin: auto;
+			}
+		}
 	}
 
 	.navigation{
-		display: flex;
-		margin-left: auto;
-		margin-top: 7px;
-		width: 273px;
-		height: 25px;
-		margin-right: 75px;
+		display: none;
+	}
 
+}
+@media  screen and (min-width: 400px) {
+	.header-section{
+		background-color: #F3C6BD;
+		padding-top: 39px;
+		height: 710px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.header{
+		background-color: #F3C6BD;
+		display: flex;
+		width: 1140px;
+		height: 62px;
+		margin: auto;
+
+		.action-button{
+			display: block;
+		}
+
+		.logo{
+			display: flex;
+			width: 321px;
+			
+			&__image{
+				width: 60px;
+				height: 60px;
+				margin: 0;
+				margin-right: 15px;
+			}
+			&__text{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			&__name{
+				color: #2B292D;
+				font-size: 20px;
+				line-height: 25px;
+				font-weight: 700;
+			}
+			&__description{
+				display: block;
+				color: #2B292D;
+				font-size: 20px;
+				line-height: 25px;
+				opacity: .6;
+			}	
+			&__menu-button{
+				position: absolute;
+				display: none;
+			}
+		}
+
+		.navigation{
+			display: block;
+			margin-left: auto;
+			margin-top: 7px;
+			height: 25px;
+			margin-right: 75px;
+
+			
 		&__item{
 			color:#2B292D;
 			text-decoration: none;
@@ -67,6 +139,8 @@
 			width: 8px;
 			height: 5px;
 			margin-left: 11px;
+		}
+
 		}
 	}
 }
