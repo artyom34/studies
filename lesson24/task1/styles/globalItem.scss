@@ -1,10 +1,29 @@
-.action-button{
+.actions{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.actions-button{
 	background-color: #3040C4;
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 700;
 	width: 160px;
 	height: 48px;
+	border: none;
+	border-radius: 2px;
+	padding: 0;
+}
+.learnMore-button{
+	color: #3040C4;
+	font-size: 18px;
+	font-weight: 700;
+	width: 158px;
+	height: 48px;
+	margin-top: 15px;
+	padding: 0;
 	border: none;
 	border-radius: 2px;
 }
