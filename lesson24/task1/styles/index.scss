@@ -23,6 +23,8 @@ html{
 	}
 }
 
+@import 'globalItem.scss';
+
 @import 'header.scss';
 
 @import 'headLine.scss';
@@ -42,3 +44,5 @@ html{
 @import 'categories.scss';
 
 @import 'reviews.scss';
+
+@import 'hiring.scss'; 
