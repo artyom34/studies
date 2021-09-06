@@ -6,6 +6,7 @@ html {
   font-family: "Work sans", sans-serif;
   font-size: 16px;
   color: #2B292D;
+  background-color: #F2F2F2;
 }
 
 .page {
@@ -20,7 +21,7 @@ html {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
-    background-color: #F2F2F2;
+    background-color: #ffffff;
   }
 }
 .actions {
@@ -784,7 +785,6 @@ html {
 
 .community {
   width: 1400px;
-  background-color: #F2F2F2;
 }
 .community__block {
   margin: 110px auto;
@@ -963,6 +963,56 @@ html {
 }
 .categories__list .list__item:last-child {
   margin-right: 0;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1400px;
+  padding: 76px 130px 66px;
+  border-bottom: 1px solid #0000001a;
+}
+.reviews__subtitle {
+  color: #3142C6;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+.reviews__descriptions {
+  width: 750px;
+  height: 102px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin: 0;
+  margin-top: 28px;
+}
+.reviews__supervisor {
+  width: 225px;
+  height: 48px;
+  margin-top: 34px;
+}
+.reviews__supervisor__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}
+.reviews__supervisor__position-held {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.reviews__dots {
+  margin-top: 38px;
+}
+.reviews__dots__image {
+  margin-left: 13px;
 }
 
 /*# sourceMappingURL=styles.css.map */
