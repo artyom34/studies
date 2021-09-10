@@ -1,0 +1,43 @@
+.free-trial{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 130px ;
+
+	&__image{
+		margin: 73px 0;
+		margin-right: 121.59px;
+		width: 269.41px;
+	}
+	&__info{
+		margin: 106px 0;
+
+		&__title{
+			margin: 0;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 40px;
+			letter-spacing: -.25px;
+		}
+		&__descriptions{
+			width: 555px;
+			height: 64px;
+			margin: 0;
+			margin-top: 12px;
+			font-size: 22px;
+			line-height: 32px;
+		}
+		&__time{
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.form{
+			margin-top: 26px;
+
+			&__email{
+				width: 385px;
+				height: 48px;
+			}
+		}
+	}
+}

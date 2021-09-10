@@ -5,7 +5,6 @@ html{
 	font-family: 'Work sans', sans-serif;
 	font-size: 16px;
 	color: #2B292D;
-	background-color: #F2F2F2;
 }
 .page{
 	width: 100%;
@@ -46,3 +45,5 @@ html{
 @import 'reviews.scss';
 
 @import 'hiring.scss'; 
+
+@import 'free_trial.scss';
