@@ -1,0 +1,111 @@
+@import 'breakpoints.scss';
+
+.order{
+	padding: 50px 15px;
+	background-color: #F4F5F7;
+	flex-direction: column;
+	
+	.get-started{
+		width: 290px;
+		height: 48px;
+		margin-top: 12px;
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+	}
+
+	&__banner{
+		width: 200px;
+		height: 220px;
+		margin: 0 auto;
+	}
+
+	&__info{
+		margin: 40px auto 0;
+
+		&__title{
+			margin: 0;
+			font-size: 40px;
+			font-weight: 700;
+			line-height: 40px;
+			letter-spacing: -.25px;
+			text-align: center;
+		}
+		&__descriptions{
+			margin: 0;
+			margin-top: 18px;
+			font-size: 22px;
+			line-height: 32px;
+			height: 167px;
+
+		}
+	}
+	&__form{
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+
+		&__email{
+			flex-grow: 1;
+			text-align: center;
+			height: 48px;
+		}
+	}
+	&__text{
+		margin: 0;
+		margin-top: 10px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+@include for-large-up{
+	.order{
+		display: flex;
+		flex-direction: row;
+		width: 1400px;
+		height: 441px;
+		padding: 73px 130px 72px;
+
+		.get-started{
+			width: 160px;
+			margin: 0;
+			margin-left: 10px;
+		}
+
+		&__banner{
+			width: 269px;
+			height: 296px;
+			margin: 0;
+			margin-left: 97px;
+		}
+
+		&__found{
+			width: 555px;
+			margin-left: 122px;
+		}
+
+		&__info{
+			margin: 0;
+			margin-top: 33px;
+
+			&__title{
+				height: 48px;
+				text-align: left;
+			}
+			&__descriptions{
+				height: 64px;
+				margin-top: 12px;
+			}
+		}
+		&__form{
+			margin-top: 26px;
+			flex-direction: row;
+			
+			&__email{
+				text-align: left;
+				padding-left: 15px;
+				height: 48px;
+			}
+		}
+		
+	}
+}
