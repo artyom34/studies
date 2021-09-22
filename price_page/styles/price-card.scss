@@ -1,0 +1,65 @@
+@import 'variables.scss';
+
+.price-card{
+	background-color: $secondaryBgColor;
+	width: 380px;
+	height: 770px;
+	margin-right: 18px ;
+
+	&__title{
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 43px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 33px;
+	}
+
+	&__subtitle{
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 24px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	&__price{
+		display: flex;
+		height: 105px;
+		margin-top: 33px;
+
+		&__item{
+			height: 67px;
+			width: 160px;
+			margin: auto;
+			font-size: 55px;
+			font-weight: 700;
+			line-height: 67px;
+			text-align: center;
+		}
+	}
+
+	&__descriptions{
+		display: flex;
+		margin: 40px auto;
+		width: 327px;
+		height: 36px;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 18px;
+		text-align: center;
+	}
+
+	&__options-list{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		&__item{
+			height: 50px;
+		}
+	}
+}
+.price-card:last-child{
+	margin-right: 0;
+}
