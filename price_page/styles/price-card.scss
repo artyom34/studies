@@ -1,12 +1,32 @@
 @import 'variables.scss';
 
 .price-card{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	background-color: $secondaryBgColor;
 	width: 380px;
 	height: 770px;
 	margin-right: 18px ;
+	overflow: hidden;
+
+	&__badge{
+		display: flex;
+		position: absolute;
+		transform: rotate(45deg);
+		background-color: #DC3F45;
+		width: 147px;
+		height: 25px;
+		top: 30px;
+		right: -30px;
+
+		&__text{
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 17px;
+			margin: auto;
+		}
+	}
 
 	&__title{
 		font-size: 35px;
