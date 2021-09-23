@@ -1,6 +1,8 @@
 @import 'variables.scss';
 
 .price-card{
+	display: flex;
+	flex-direction: column;
 	background-color: $secondaryBgColor;
 	width: 380px;
 	height: 770px;
@@ -57,7 +59,35 @@
 
 		&__item{
 			height: 50px;
+			display: flex;
+
+			&__image{
+				margin: auto 0;
+				width: 15px;
+				height: 13px;
+				margin-left: 22px;
+			}
+
+			&__text{
+				margin: auto 0;
+				margin-left: 22px;
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 18px;
+			}
 		}
+
+		&__item:nth-child(odd){
+			background-color: rgba(42, 52, 56, .5);;;
+		}
+	}
+
+	&__order-btn{
+		width: 154px;
+		height: 40px;
+		border-radius: 20px;
+		border: none;
+		margin: 39px auto 40px;
 	}
 }
 .price-card:last-child{
